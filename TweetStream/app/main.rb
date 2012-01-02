@@ -12,10 +12,10 @@ class TweetStreamApp < Bsl::Application
 	@@DEFAULT_SQL_USER = "host"
 	@@DEFAULT_SQL_PASSWORD = "password"
 	
-	@@DEFAULT_CONSUMER_KEY = ""
-	@@DEFAULT_CONSUMER_SECRET = ""
-	@@DEFAULT_OAUTH_TOKEN = ""
-	@@DEFAULT_OAUTH_TOKEN_SECRET = ""
+	@@DEFAULT_CONSUMER_KEY = "twitter_consumer_key"
+	@@DEFAULT_CONSUMER_SECRET = "twitter_consumer_secret"
+	@@DEFAULT_OAUTH_TOKEN = "twitter_ouath_token"
+	@@DEFAULT_OAUTH_TOKEN_SECRET = "twitter_token_secret"
 	
 	def initialize(opts = {})
 		super(opts)
