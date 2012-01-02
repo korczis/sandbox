@@ -78,7 +78,6 @@ class TweetStreamApp < Bsl::Application
 	
 	def main()
 		super()
-
 		
 		conn = PGconn.connect(options['sql_host'], options['sql_port'], '', '', options['sql_db'], options['sql_user'], options['sql_password'])
 		
